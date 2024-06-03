@@ -35,7 +35,7 @@ const LinkSchema = new mongoose.Schema({
   clicks: [ClickSchema],
   targetParamName: {
     type: String,
-    default: ""
+    default: "aabb"
   },
   targetValues: [TargetValueSchema]
 });
